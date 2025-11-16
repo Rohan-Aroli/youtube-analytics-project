@@ -1,132 +1,102 @@
-📊 YouTube Data Analytics & Insights Project
+# 📊 YouTube Data Analytics & Insights Project
 
-A complete exploratory data analysis (EDA) project on real-world YouTube creator data.
-This project uncovers trends across subscribers, categories, earnings, demographics, upload patterns, and global creator distribution using Python-based data analytics and visualization techniques.
+A comprehensive Exploratory Data Analysis (EDA) project on YouTube creator data, uncovering trends in subscribers, categories, earnings, demographics, growth patterns, and global creator distribution. Built using Python, Pandas, Matplotlib, and Seaborn, this project extracts meaningful insights backed by clear visualizations and statistical reasoning.
 
-🔍 Overview
+---
 
-This project analyzes multiple aspects of YouTube creators, including:
+## 🔗 Repository  
+**GitHub:** https://github.com/Rohan-Aroli/youtube-analytics-project  
 
-Top creators by subscribers and views
+---
 
-Category-level trends (uploads, earnings, popularity)
+## 📥 Clone the Repository
 
-Country-wise creator distribution
+```bash
+git clone https://github.com/Rohan-Aroli/youtube-analytics-project.git
+cd youtube-analytics-project
+```
 
-Correlation between subscribers, uploads, views, earnings, and demographic factors
+---
 
-Outlier detection using IQR
+## 🔍 Overview
 
-Channel creation trends by year, month, and season
+This project analyzes multiple dimensions of YouTube creators, including:
 
-Geographic insights using latitude & longitude
+- Top creators by subscribers  
+- Category-wise trends (uploads, earnings, popularity)  
+- Earnings analysis (monthly & yearly)  
+- Global YouTube creator distribution by country  
+- Correlation between subscribers, views, earnings, and demographics  
+- Outlier detection using the IQR method  
+- Trends in channel creation by year and month  
+- Geographic mapping using latitude/longitude  
+- Insights into creator behavior and platform growth  
 
-Earnings (monthly & yearly) patterns
+---
 
-The goal is to transform a raw dataset into actionable insights using Python’s analytics ecosystem.
+## 🛠 Tech Stack
 
-🛠 Tech Stack
+- **Python**
+- **Pandas**
+- **NumPy**
+- **Matplotlib**
+- **Seaborn**
+- **Dateutil**
+- **Statistics**
 
-Python
+---
 
-Pandas
+## 📁 Project Structure
 
-NumPy
+```
+youtube-analytics-project/
+│── cleaned_code_for_case_project.py
+│── yt.csv
+└── README.md
+```
 
-Matplotlib
+---
 
-Seaborn
+## ▶️ How to Run the Project
 
-DateUtil
+1. **Clone or download the repository**
+2. Ensure `yt.csv` is placed in the same directory as the Python script.
+3. Install required dependencies:
 
-Statistics
-
-📂 Project Structure
-
-YouTube-Analytics/
-
-│── cleaned_code_for_case_project.py     # Main analysis script
-
-│── yt.csv                                # Dataset (included)
-
-└── README.md                              # Project documentation
-
-
-🚀 Getting Started
-1️⃣ Clone the repository
-git clone https://github.com/Rohan-Aroli/YOUR_REPO_NAME.git
-
-2️⃣ Navigate to the project directory
-cd YOUR_REPO_NAME
-
-3️⃣ Install required libraries
+```bash
 pip install pandas numpy matplotlib seaborn python-dateutil
+```
 
-4️⃣ Ensure the dataset exists
+4. Run the analysis:
 
-yt.csv must be in the same folder as the Python script.
-
-5️⃣ Run the project
+```bash
 python cleaned_code_for_case_project.py
+```
 
-📈 Key Analysis Performed
+---
 
-Top Creator Analysis – subscribers & views
-
-Category Breakdown – uploads, revenue, audience
-
-Correlation Heatmaps – relationships across fields
-
-Demographic Impact – population, unemployment, education
-
-Outlier Analysis (IQR)
-
-Time-Series Insights – creation year, month, season
-
-Geographical Distribution – using lat/long
-
-Engagement Patterns – uploads vs growth
-
-Visualization-driven insight reports
-
-🎯 Purpose
+## ⭐ Purpose
 
 This project demonstrates:
 
-Real-world Exploratory Data Analysis (EDA)
+- Exploratory Data Analysis (EDA)  
+- Data cleaning and preprocessing  
+- Visual storytelling through graphs and charts  
+- Identifying statistical patterns and correlations  
+- Insight generation from real-world datasets  
+- A strong portfolio project for **Data Analytics, Data Science, and Python developer roles**  
 
-Data cleaning, preprocessing, and transformation
+---
 
-Insight generation from numeric & categorical data
+## 📌 Notes
 
-Statistical reasoning & visualization
+- `yt.csv` is included in the repository.
+- If your dataset uses different column names, adjust them accordingly inside the script.
+- The project is self-contained — no external API or online dependencies required.
 
-Ability to convert raw data into meaningful conclusions
+---
 
-A strong, industry-ready portfolio project for:
+## 🎉 Status
 
-Data Analytics
-
-Data Science
-
-Python Development
-
-Visualization roles
-
-📌 Notes
-
-Dataset yt.csv is included for convenience.
-
-If your dataset has different column names, update them in the script.
-
-Feel free to extend the script with ML models or dashboards.
-
-⭐ Future Enhancements
-
-Adding a Streamlit dashboard
-
-Predictive modelling using ML
-
-Upload-trend forecasting
-
-Category ranking based on engagement efficiency
+This project is actively maintained and open to improvements or suggestions.  
+Feel free to fork, explore, and experiment!
