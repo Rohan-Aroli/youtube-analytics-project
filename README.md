@@ -40,6 +40,7 @@ Dateutil
 Statistics
 
 📁 Project Structure
+
 ├── cleaned_code_for_case_project.py
 
 ├── yt.csv
