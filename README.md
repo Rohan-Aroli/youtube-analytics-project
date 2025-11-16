@@ -42,14 +42,19 @@ DateUtil
 Statistics
 
 📂 Project Structure
+
 YouTube-Analytics/
+
 │── cleaned_code_for_case_project.py     # Main analysis script
+
 │── yt.csv                                # Dataset (included)
+
 └── README.md                              # Project documentation
+
 
 🚀 Getting Started
 1️⃣ Clone the repository
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+git clone https://github.com/Rohan-Aroli/YOUR_REPO_NAME.git
 
 2️⃣ Navigate to the project directory
 cd YOUR_REPO_NAME
