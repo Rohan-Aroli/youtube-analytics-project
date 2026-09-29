@@ -1,0 +1,7 @@
+venv/
+
+backend/models_cache/
+backend/youtube_analytics.db
+backend/app/models_cache/
+__pycache__/
+*.pyc
